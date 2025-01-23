@@ -1,4 +1,4 @@
-obj-m += msix.o
+obj-m += msix_pci.o
 
 all:
 	make -C /lib/modules/`uname -r`/build M=$(PWD) modules
